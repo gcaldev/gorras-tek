@@ -1,0 +1,82 @@
+.botonlink {
+  background: rgb(79,41,9);
+  border-width: 0px;
+  box-shadow: 0px 0px 10px 2px var(--bs-dark);
+}
+
+html body {
+  height: 100%;
+  min-height: 1080px;
+}
+
+.navigation-clean-search {
+  background: rgb(79,41,9);
+  opacity: 1;
+}
+
+.fab.fa-redhat.fa-2xl {
+  transform: scale(1);
+  color: var(--bs-light);
+  margin-left: 25px;
+  margin-right: 50px;
+}
+
+.fa.fa-search {
+  padding-right: 10px;
+  color: var(--bs-light);
+}
+
+.fa.fa-shopping-bag {
+  color: var(--bs-light);
+  margin-left: 20px;
+  margin-right: 12px;
+}
+
+.link1 {
+  padding-right: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link2 {
+  padding-right: 30px;
+  color: var(--bs-light);
+  text-decoration: none;
+}
+
+.link3 {
+  padding-right: 30px;
+  color: var(--bs-light);
+  text-decoration: none;
+}
+
+.link4 {
+  color: var(--bs-light);
+  text-decoration: none;
+}
+
+.highlight-blue.sec2 {
+  background: url("ropa-paca.jpg") no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.textoboton {
+  width: 100%;
+  max-width: 500px;
+}
+
+.highlight-blue.hl1 {
+  height: 100%;
+  background: rgb(79,41,9);
+  min-height: 450px;
+}
+
+#faq {
+  padding: 2px;
+  margin: 11px;
+}
+
+.footer-clean {
+  background: rgb(79,41,9);
+  color: var(--bs-light);
+}
