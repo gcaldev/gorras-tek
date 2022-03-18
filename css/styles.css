@@ -1,5 +1,5 @@
 .botonlink {
-  background: rgb(79,41,9);
+  background: #4f3434;
   border-width: 0px;
   box-shadow: 0px 0px 10px 2px var(--bs-dark);
 }
@@ -10,7 +10,7 @@ html body {
 }
 
 .navigation-clean-search {
-  background: rgb(79,41,9);
+  background: #4f3434;
   opacity: 1;
 }
 
@@ -67,7 +67,7 @@ html body {
 
 .highlight-blue.hl1 {
   height: 100%;
-  background: rgb(79,41,9);
+  background: #4f3434;
   min-height: 450px;
 }
 
@@ -77,6 +77,6 @@ html body {
 }
 
 .footer-clean {
-  background: rgb(79,41,9);
+  background: #4f3434;
   color: var(--bs-light);
 }
