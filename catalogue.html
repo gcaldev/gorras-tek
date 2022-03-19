@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Catalogo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <link rel="stylesheet" href="css/Navigation.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/ProductList.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
+        <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><i class="fab fa-redhat fa-2xl"></i>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+                <div class="d-inline-flex flex-fill justify-content-end">
+                    <div class="divsearch"><i class="fa fa-search ms-auto"></i><input type="search" id="search-field" class="search-field" name="search" placeholder="Buscar" autocomplete="off" style="width: 300px;"></div>
+                </div>
+                <div class="d-inline-flex flex-fill justify-content-end">
+                    <div class="links1"><a class="link1" href="#">FAQ</a><a class="link2" href="#">Iniciar Sesión</a><a class="link3" href="#">Catálogo</a><a class="me-auto link4" href="#">Contacto</a></div>
+                </div><i class="fa fa-shopping-bag"></i>
+            </div>
+        </div>
+    </nav>
+    <section class="main-content">
+        <div class="container-fluid my-5">
+            <div class="row">
+                <div class="col">
+                    <div class="mobile-filters-wrapper m-5 d-md-none d-flex flex-column align-items-center">
+                        <button class="btn btn-primary btn-lg shadow-none w-100 text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">Filtros</button>
+                        <div class="collapse w-100" id="filterCollapse">
+                            <div class="mobile-filters container-fluid mt-4 p-3 w-100">
+                                <div class="category-filters">
+                                    <button class="filter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#categoryCollapse" aria-expanded="false" aria-controls="categoryCollapse">Categorias</button>
+                                    <div class="collapse" id="categoryCollapse">
+                                        <ul>
+                                            <li><a href="">Gorras</a></li>
+                                            <li><a href="">Remeras</a></li>
+                                            <li><a href="">Buzos</a></li>
+                                            <li><a href="">Joggins</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="price-filters">
+                                    <button class="filter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#priceCollapse" aria-expanded="false" aria-controls="priceCollapse">Precios</button>
+                                    <div class="collapse" id="priceCollapse">
+                                        <ul>
+                                            <li><a href="">Hasta $2000</a></li>
+                                            <li><a href="">Desde $2000 a $3000</a></li>
+                                            <li><a href="">Desde $3000 a $4000</a></li>
+                                            <li><a href="">Mas de $4000</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="cap-filters">
+                                    <button class="filter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#capCollapse" aria-expanded="false" aria-controls="capCollapse">Gorras</button>
+                                    <div class="collapse" id="capCollapse">
+                                        <ul>
+                                            <li><a href="">Goorin</a></li>
+                                            <li><a href="">Nike</a></li>
+                                            <li><a href="">LA</a></li>
+                                            <li><a href="">Adidas</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="jumper-filters">
+                                    <button class="filter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#jumperCollapse" aria-expanded="false" aria-controls="jumperCollapse">Buzos</button>
+                                    <div class="collapse" id="jumperCollapse">
+                                        <ul>
+                                            <li><a href="">Adidas</a></li>
+                                            <li><a href="">Nike</a></li>
+                                            <li><a href="">Puma</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="shirt-filters">
+                                    <button class="filter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#shirtCollapse" aria-expanded="false" aria-controls="shirtCollapse">Remeras</button>
+                                    <div class="collapse" id="shirtCollapse">
+                                        <ul>
+                                            <li><a href="">Nike</a></li>
+                                            <li><a href="">Adidas</a></li>
+                                            <li><a href="">Thommy</a></li>
+                                            <li><a href="">Lacoste</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="joggin-filters">
+                                    <button class="filter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#jogginCollapse" aria-expanded="false" aria-controls="jogginCollapse">Joggins</button>
+                                    <div class="collapse" id="jogginCollapse">
+                                        <ul>
+                                            <li><a href="">Nike</a></li>
+                                            <li><a href="">Adidas</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desktop-filters d-none d-md-block p-3 mx-3">
+                        <h2>Categorias</h2>
+                        <ul>
+                            <li><a href="">Gorras</a></li>
+                            <li><a href="">Remeras</a></li>
+                            <li><a href="">Buzos</a></li>
+                            <li><a href="">Joggins</a></li>
+                        </ul>
+                        <h2>Precios</h2>
+                        <ul>
+                            <li><a href="">Hasta $2000</a></li>
+                            <li><a href="">Desde $2000 a $3000</a></li>
+                            <li><a href="">Desde $3000 a $4000</a></li>
+                            <li><a href="">Mas de $4000</a></li>
+                        </ul>
+                        <h2>Gorras</h2>
+                        <ul>
+                            <li><a href="">Goorin</a></li>
+                            <li><a href="">Nike</a></li>
+                            <li><a href="">LA</a></li>
+                            <li><a href="">Adidas</a></li>
+                        </ul>
+                        <h2>Buzos</h2>
+                        <ul>
+                            <li><a href="">Adidas</a></li>
+                            <li><a href="">Nike</a></li>
+                            <li><a href="">Puma</a></li>
+                        </ul>
+                        <h2>Remeras</h2>
+                        <ul>
+                            <li><a href="">Nike</a></li>
+                            <li><a href="">Adidas</a></li>
+                            <li><a href="">Thommy</a></li>
+                            <li><a href="">Lacoste</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8" id="product-list">
+                    <div class="dropdown d-none d-md-block">
+                        <button class="btn btn-primary shadow-none dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Ordenar por
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Mas relevantes</a></li>
+                          <li><a class="dropdown-item" href="#">Menor precio</a></li>
+                          <li><a class="dropdown-item" href="#">Mayor precio</a></li>
+                        </ul>
+                      </div>
+                    <div class="row px-5 px-md-0 row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-5 g-3">
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/buzo-adidas.jpeg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Buzo Adidas Celeste Original</h6>
+                                    <h4>$3500</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/gorra-1.jpeg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Buzo Adidas Celeste Original</h6>
+                                    <h4>$3500</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/images (1).jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Gorra Negra Nike Original</h6>
+                                    <h4>$3500</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/gorra-2.jpeg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Goorin Gorra</h6>
+                                    <h4>$2500</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/pack1.jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Pack x6 remeras lisas</h6>
+                                    <h4>$200000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/pack1.jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Pack x6 remeras lisas</h6>
+                                    <h4>$200000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/pack1.jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Pack x6 remeras lisas</h6>
+                                    <h4>$200000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/pack1.jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Pack x6 remeras lisas</h6>
+                                    <h4>$200000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/pack1.jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Pack x6 remeras lisas</h6>
+                                    <h4>$200000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/pack1.jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Pack x6 remeras lisas</h6>
+                                    <h4>$200000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/pack1.jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Pack x6 remeras lisas</h6>
+                                    <h4>$200000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/pack1.jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Pack x6 remeras lisas</h6>
+                                    <h4>$200000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/pack1.jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Pack x6 remeras lisas</h6>
+                                    <h4>$200000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/pack1.jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Pack x6 remeras lisas</h6>
+                                    <h4>$200000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="product-item w-100 h-100">
+                                <div class="img-wrapper">
+                                    <img src="./img/pack1.jpg" alt="">
+                                </div>
+                                <div class="item-details d-flex flex-column p-3">
+                                    <h6 class="fw-normal">Pack x6 remeras lisas</h6>
+                                    <h4>$200000</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="items-pagination">
+        <div class="container-fluid d-flex justify-content-center">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </section>
+    <footer class="footer-clean">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 col-xl-4 item">
+                    <h3 class="text-center" style="margin-bottom: 0px;">About us</h3>
+                    <p class="text-center"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a ornare velit, ut varius felis. Cras accumsan, elit ac venenatis fermentum, nisl diam ullamcorper tellus.<br><br></p>
+                </div>
+                <div class="col-lg-3 col-xl-4 text-center item social">
+                    <p class="text-center" style="margin-bottom: 0px;margin-right: 0px;">Contacto</p><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                    <p class="copyright">Telefono +54 12345670</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr class="star-dark mb-5">
+        </div>
+        <p class="text-center" style="color: rgb(45,140,234);">Developed by tomas_moscarelli y gcaldev</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
